@@ -1,0 +1,7 @@
+
+Are you sure?
+<form method="POST">
+    {% csrf_token %}  {% comment %} AGREGAR SIEMPRE {% endcomment %}
+    {{ form }}
+    <button type="submit">Delete</button>
+</form>
