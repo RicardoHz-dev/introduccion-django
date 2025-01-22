@@ -1,0 +1,8 @@
+<form method="POST">
+    {% csrf_token %}  {% comment %} AGREGAR SIEMPRE {% endcomment %}
+    title{{form.title}}
+    <br>
+    content{{form.content}}
+
+    <button type="submit">Update</button>
+</form>
